@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <resource id="1" full_name="Іван Іванович" faculty="Інформатика" department="Програмування" specialty="Програміст" joining_time="2022">
+        <event_plan>
+            <event description="Курс з програмування" location="Лабораторія 1" time="10:00" informal_characteristic="Практичний"/>
+            <event description="Індивідуальне заняття" location="Лабораторія 2" time="14:00" informal_characteristic="Практичний"/>
+        </event_plan>
+    </resource>
+    <resource id="2" full_name="Петро Петрович" faculty="Математика" department="Статистика" specialty="Аналітик" joining_time="2021">
+        <event_plan>
+            <event description="Лекція з аналізу даних" location="Аудиторія 3" time="12:00" informal_characteristic="Теоретичний"/>
+            <event description="Практичне заняття з машинного навчання" location="Аудиторія 5" time="15:00" informal_characteristic="Практичний"/>
+        </event_plan>
+    </resource>
+    <resource id="3" full_name="Марія Олександрівна" faculty="Філологія" department="Літературознавство" specialty="Філолог" joining_time="2020">
+        <event_plan>
+            <event description="Лекція з історії літератури" location="Аудиторія 2" time="09:00" informal_characteristic="Теоретичний"/>
+            <event description="Круглий стіл з лексикології" location="Аудиторія 6" time="13:00" informal_characteristic="Дискусійний"/>
+        </event_plan>
+    </resource>
+    <resource id="4" full_name="Олег Вікторович" faculty="Економіка" department="Фінанси" specialty="Економіст" joining_time="2019">
+        <event_plan>
+            <event description="Курс з економічної теорії" location="Аудиторія 1" time="11:00" informal_characteristic="Теоретичний"/>
+            <event description="Семінар з інвестицій" location="Аудиторія 4" time="16:00" informal_characteristic="Практичний"/>
+        </event_plan>
+    </resource>
+    <resource id="5" full_name="Андрій Сергійович" faculty="Інженерія" specialty="Інженер-механік" joining_time="2023">
+        <event_plan>
+            <event description="Лекція з механіки" location="Аудиторія 7" time="10:00" informal_characteristic="Теоретичний"/>
+            <event description="Практичне заняття з фізики" location="Лабораторія 3" time="14:00" informal_characteristic="Практичний"/>
+        </event_plan>
+    </resource>
+    <resource id="6" full_name="КовтУн Віталій" department="Кібернетики" specialty="Комп'ютерщик" joining_time="2022">
+        <event_plan>
+            <event description="Курс по сігма алгебрі" location="Аудиторія 8" time="08:00" informal_characteristic="Теоретичний"/>
+            <event description="Практичне заняття з психотерапії" location="Аудиторія 9" time="13:00" informal_characteristic="Практичний"/>
+        </event_plan>
+    </resource>
+</resources>
