@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DepartmentResourcesApp.MainPage"
@@ -11,7 +11,7 @@
     <Grid RowDefinitions="Auto,*,Auto" ColumnDefinitions="*" Padding="10">
 
         <!-- Заголовок сторінки -->
-        <Label Text="Sigma Laboratorna Robota"
+        <Label Text="Laboratorna Robota"
                FontSize="28"
                FontAttributes="Bold"
                HorizontalOptions="Center"
@@ -56,26 +56,32 @@
 
                 <!-- Вибір атрибута -->
                 <Label Text="Виберіть атрибут для пошуку:" FontSize="18" TextColor="#444"/>
-                <Picker x:Name="attributePicker" BackgroundColor="#f2f2f2" HeightRequest="40" HorizontalOptions="FillAndExpand" Margin="0,5,0,15" TextColor="#333"/>
+                <Picker x:Name="attributePicker" 
+                    BackgroundColor="#E3F2FD" 
+                    HeightRequest="40" 
+                    HorizontalOptions="FillAndExpand" 
+                    Margin="0,5,0,15" 
+                    TextColor="#333"/>
 
                 <!-- Введення значення атрибута -->
                 <Label Text="Введіть значення атрибута:" FontSize="18" TextColor="#444"/>
-                <Entry x:Name="attributeValueEntry" Placeholder="Значення атрибута" BackgroundColor="#f2f2f2" HeightRequest="40" HorizontalOptions="FillAndExpand" Margin="0,5,0,15" TextColor="#333"/>
-                
-                <!-- Кнопка для пошуку -->
+                <Entry x:Name="attributeValueEntry" 
+                    Placeholder="Значення атрибута" 
+                    BackgroundColor="#FFF8E1" 
+                    HeightRequest="40" 
+                    HorizontalOptions="FillAndExpand" 
+                    Margin="0,5,0,15" 
+                    TextColor="#333"/>
                 <Button Text="Пошук та трансформація"
                 Clicked="OnFilterApplyClicked" />
-
                 <!-- Вибір методу обробки -->
-                <Label Text="Виберіть метод обробки:"
-                       FontSize="18"
-                       TextColor="#444"/>
-                <Picker x:Name="strategyPicker"
-                        TextColor="Black"
-                        BackgroundColor="#f2f2f2"
-                        HeightRequest="40"
-                        HorizontalOptions="FillAndExpand"
-                        Margin="0,5,0,15">
+                <Label Text="Виберіть метод обробки:" FontSize="18" TextColor="#444"/>
+                <Picker x:Name="strategyPicker" 
+                        BackgroundColor="#E8F5E9" 
+                        HeightRequest="40" 
+                        HorizontalOptions="FillAndExpand" 
+                        Margin="0,5,0,15" 
+                        TextColor="#333">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
                             <x:String>SAX</x:String>
